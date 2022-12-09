@@ -1,0 +1,22 @@
+{
+  "name": "information-ai",
+  "version": "0.0.1",
+  "devDependencies": {
+    "nodemon": "2.0.4",
+    "jest": "26.0.1"
+  },
+  "dependencies": {
+    "fastify": "^4.9.2",
+    "@fastify/cors": "^8.1.1",
+    "mongodb": "3.6.1"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "start:dev": "nodemon src/server.js",
+    "code-coverage": "jest --collect-coverage",
+    "test": "jest"
+  },
+  "_moduleAliases": {
+    "@src": "/src"
+  }
+}
