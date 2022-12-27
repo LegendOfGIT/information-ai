@@ -7,6 +7,7 @@ const fastify = require('fastify')({
 fastify.register(require('@fastify/cors'), {});
 
 informationScoringController.registerTrainingData(fastify);
+informationScoringController.registerAiPredictions(fastify);
 
 fastify.listen(3003, (err, address) => {
     if (err) throw err

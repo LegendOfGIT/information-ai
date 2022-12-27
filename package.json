@@ -2,12 +2,13 @@
   "name": "information-ai",
   "version": "0.0.1",
   "devDependencies": {
-    "nodemon": "2.0.4",
-    "jest": "26.0.1"
+    "jest": "26.0.1",
+    "nodemon": "2.0.4"
   },
   "dependencies": {
-    "fastify": "^4.9.2",
     "@fastify/cors": "^8.1.1",
+    "brain.js": "^2.0.0-beta.17",
+    "fastify": "^4.9.2",
     "mongodb": "3.6.1"
   },
   "scripts": {
